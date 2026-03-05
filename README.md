@@ -15,7 +15,7 @@ conda activate hdr_transformer_pytorch
 pip install -r requirements.txt
 ```
 ### Dataset
-1. Download the dataset (include the NTIRE2021 dataset and Cityscape dataset) from https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/
+1. Download the dataset (include the NTIRE2021 dataset and Cityscape dataset) from https://pan.baidu.com/s/1dr1vCGVZ5OVI4O0fHcNRSQ?pwd=1111
 
 2. Prepare the corpped training set by running:
 ```
