@@ -148,16 +148,14 @@ class AGNet(nn.Module):
         for i in range(6):
             x1 = self.layers[i](x1)
         x2 = self.LConv1(x1)
-        y1 = y1 + x2
-
+    
         y2 = self.convs[1](y1)
         y2 = self.relu(y2)
 
         for i in range(6, 12):
             x2 = self.layers[i](x2)
         x3 = self.LConv2(x2)
-        y2 = y2 + x3
-
+        
         y3 = self.convs[2](y2)
         y3 = self.relu(y3)
 
